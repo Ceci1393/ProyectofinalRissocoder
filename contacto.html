@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="LA SINNOMBRE">
+    <meta name="description" content="Descubre claridad y guía en tu camino con nuestras lecturas de tarot personalizadas">
+    <meta name="keywords" content="Lecturas, Carta del día, ¿Quiénes somos?, Testimonios, contacto, tarot, espiritualidad, astrología, guía espiritual">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>La Sinnombre / Lecturas personalizadas</title>
+    <link rel="icon" type="image/x-icon" href="imagenes/favicon-32x32.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light" role="navigation" aria-label="Menú principal">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" aria-hidden="true"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-Toggler">
+                <a class="navbar-brand" href="./index.html" aria-label="Ir a la página principal">LA SINNOMBRE</a>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./quienesomos.html">¿Quiénes somos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Lecturas.html">Lecturas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cartadeldia.html">Carta del día</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./testimonios.html">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <h2 class="animate__animated animate__fadeIn">Contacto</h2>
+    </header>
+
+    <main class="fondoImg">
+        <form action="" aria-labelledby="formulario-contacto">
+            <h3 id="formulario-contacto" class="visually-hidden">Formulario de contacto</h3>
+            <div>
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="nombre" placeholder="Cecilia" required>
+            </div>
+            <div>
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido" placeholder="Risso" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="pais">Selecciona tu País</label>
+                <select id="pais" name="pais" required>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Paraguay">Paraguay</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit">Enviar datos</button>
+                <button type="reset">Borrar campos</button>
+            </div>
+        </form>
+    </main>
+
+    <section id="contacto" class="Contacto seccion-oscura animate__animated animate__fadeIn">
+        <div class="container">
+            <div class="text-center rectangulo d-flex justify-content-evenly">
+                <div class="row">
+                    <div class="col-12 col-md-4 descripcion">
+                        Esperamos tu consulta
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="mailto:lasinnombre13@gmail.com" aria-label="Enviar un correo a La Sinnombre">
+                            <button type="button" class="animate__animated animate__pulse">
+                                Contacto
+                                <i class="bi bi-envelope-heart-fill" aria-hidden="true"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <img class="footer-logo" src="imagenes/favicon-32x32.png" alt="Logo de La Sinnombre" role="img">
+        <p class="footer-texto text-center">Síguenos en redes sociales <br></p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://www.instagram.com/lasinnombre13/?hl=es" target="_blank" rel="noopener noreferrer" aria-label="Síguenos en Instagram">
+                <i class="bi bi-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="mailto:lasinnombre13@gmail.com" aria-label="Enviar un correo electrónico a La Sinnombre">
+                <i class="bi bi-envelope-heart-fill" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="derecho-de-autor">Creado por lasinnombre13 (2024) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+

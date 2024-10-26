@@ -1,0 +1,95 @@
+// Navbar
+.navbar {
+  &.navbar-light {
+      background-color: #e7cbed; // Fondo claro para la barra de navegación
+      color: #ecebf1; // Color oscuro para las letras
+
+      .container-fluid {
+          .navbar-toggler {
+              border-color: #1c1c1c; // Borde oscuro del botón de colapsar
+
+              .navbar-toggler-icon {
+                  filter: invert(100%); // Cambia el ícono a oscuro
+              }
+          }
+
+          .navbar-brand {
+              font-size: 1.8rem; // Tamaño de fuente para la marca
+              font-weight: bold;
+              color: #1c1c1c; // Color oscuro para la marca
+
+              &:hover {
+                  color: #333333; // Color al pasar el ratón
+              }
+          }
+
+          .navbar-nav {
+              .nav-item {
+                  .nav-link {
+                      color: #1c1c1c; // Color oscuro para los enlaces
+                      font-size: 1.2rem; // Tamaño de fuente
+
+                      &:hover {
+                          color: #333333; // Color de hover
+                          background-color: rgba(255, 255, 255, 0.1); // Fondo semitransparente
+                      }
+
+                      &.active {
+                          color: #555555; // Color para el enlace activo
+                          font-weight: bold; // Texto en negrita
+                      }
+                  }
+              }
+          }
+      }
+  }
+}
+
+// Footer
+footer {
+  &.seccion-oscura {
+      background-color: #1c1c1c; // Fondo oscuro para el footer
+      color: #f0f0f0; // Color claro para el texto
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+
+      .footer-logo {
+          width: 50px; // Tamaño del logo
+          margin-bottom: 10px; // Separación entre logo y texto
+      }
+
+      .footer-texto {
+          font-size: 1.2rem; // Tamaño de fuente
+          text-align: center;
+          margin-bottom: 15px; // Espaciado con las redes sociales
+      }
+
+      .iconos-redes-sociales {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
+          gap: 15px; // Separación entre los íconos
+
+          a {
+              color: #f0f0f0; // Color claro para los íconos
+              font-size: 2rem; // Tamaño de los íconos
+              transition: color 0.3s ease;
+
+              &:hover {
+                  color: #68148b; // Cambia el color al pasar el ratón
+              }
+          }
+      }
+
+      .derecho-de-autor {
+          margin-top: 20px;
+          font-size: 1rem;
+          color: #cccccc; // Color para derechos de autor
+      }
+  }
+}

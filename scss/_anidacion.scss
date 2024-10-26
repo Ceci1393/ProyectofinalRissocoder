@@ -1,0 +1,45 @@
+#Lecturas {
+  &.lecturas {
+      &.seccion-clara {
+          background-color: #0d0a1b; // Fondo oscuro
+          color: #f0f0f0; // Texto claro
+
+          .container {
+              text-align: center;
+
+              .row {
+                  .columna {
+                      &.col-12 {
+                          &.col-md-4 {
+                              i {
+                                  font-size: 4rem; // Tamaño del icono más grande
+                                  color: #ebd335;  // Color del icono
+                              }
+
+                              .lectura-titulo {
+                                  font-size: 1.8rem; // Tamaño de la fuente del título
+                                  color: #ffffff; // Color del texto del título
+                              }
+
+                              p {
+                                  font-size: 2.2rem; // Tamaño de la fuente del párrafo
+                                  color: #fff8f8; // Color de los párrafos
+                              }
+
+                              .badges-contenedor {
+                                  .badge {
+                                      &.text-bg-primary {
+                                          background-color: #d3b0a5; // Fondo de la etiqueta de precio
+                                          color: #ffffff; // Texto claro para el precio
+                                          font-size: 2.1rem; // Tamaño de la fuente de la etiqueta
+                                      }
+                                  }
+                              }
+                          }
+                      }
+                  }
+              }
+          }
+      }
+  }
+}
